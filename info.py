@@ -19,7 +19,7 @@ API_ID = int(environ.get('API_ID', '25848289'))
 API_HASH = environ.get('API_HASH', '88cf2c17c7a2bd21f4204c89c648dd40')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7316241103:AAE1FUdR--B9mpXYiN17c6HbSWiY5X-1Fh8')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1557042262').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1557042262 6482751939').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Anonymous_7")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002055918522'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Rasmovierequest')
@@ -58,7 +58,7 @@ PREMIUM_POINT = 1500
 auth_channel = environ.get('AUTH_CHANNEL', '-1001923834324')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001923834324'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1001947804941')
+request_channel = environ.get('REQUEST_CHANNEL', '-1002157133057')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002055918522'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002234418373'))
